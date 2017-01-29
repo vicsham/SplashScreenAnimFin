@@ -62,7 +62,7 @@ public class SplashScreen extends Activity {
                // textView.setVisibility(View.VISIBLE);
 
             }
-        },12000);
+        },15000);
     }
 
     void showTfno(){

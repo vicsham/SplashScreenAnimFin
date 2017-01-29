@@ -13,10 +13,10 @@
         android:duration="2000"
         android:fillBefore="false" />
     <translate
-        android:toYDelta="500"
+        android:toYDelta="70%p"
         android:fromYDelta="50"
         android:fromXDelta="100%p"
-        android:toXDelta="700"
+        android:toXDelta="29%p"
         android:startOffset="6000"
         android:duration="2000"
         />
