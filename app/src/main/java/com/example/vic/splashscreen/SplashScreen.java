@@ -48,7 +48,15 @@ public class SplashScreen extends Activity {
         },3000);
 
         */
-        showTfno();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                showTfno();
+
+            }
+        },1);
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -59,10 +67,11 @@ public class SplashScreen extends Activity {
 
 
 
+
                // textView.setVisibility(View.VISIBLE);
 
             }
-        },15000);
+        },15200);
     }
 
     void showTfno(){

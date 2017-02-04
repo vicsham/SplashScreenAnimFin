@@ -12,6 +12,9 @@
         <activity
             android:name=".SplashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
+
+            android:noHistory="true"
+
             android:label="@string/title_activity_splash_screen"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
@@ -23,9 +26,15 @@
         <activity
             android:name=".SplashScreen2"
             android:configChanges="orientation|keyboardHidden|screenSize"
+
+            android:noHistory="true"
+
             android:label="@string/title_activity_splash_screen2"
             android:theme="@style/FullscreenTheme" />
         <activity android:name=".SplashScreen3"
+
+            android:noHistory="true"
+
             android:theme="@style/FullscreenTheme"></activity>
     </application>
 
