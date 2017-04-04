@@ -47,7 +47,7 @@ public class SplashScreen extends Activity {
             }
         },3000);
 
-        */
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -56,6 +56,9 @@ public class SplashScreen extends Activity {
 
             }
         },1);
+
+*/
+
 
 
         new Handler().postDelayed(new Runnable() {
@@ -72,6 +75,8 @@ public class SplashScreen extends Activity {
 
             }
         },15200);
+
+        showTfno();
     }
 
     void showTfno(){
